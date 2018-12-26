@@ -123,6 +123,12 @@ h2:after {
     margin-right: 20px;
 }
 
+.patent {
+    width: 50px;
+    margin-right: 20px;
+    margin-bottom: -3px;
+}
+
 .js-icon {
     width: 40px;
 }
@@ -151,6 +157,24 @@ h2:after {
 
 .api-icon {
     width: 40px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+}
+
+.ruby-icon {
+    width: 40px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+}
+
+.sinatra-icon {
+    width: 60px;
+    margin-bottom: -4px;
+    margin-left: 15px;
+}
+
+.sqlite-icon {
+    width: 90px;
     margin-bottom: 3px;
     margin-left: 15px;
 }
