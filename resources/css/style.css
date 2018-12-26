@@ -96,8 +96,8 @@ h2:after {
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .box p {
@@ -136,6 +136,17 @@ h2:after {
     width: 35px;
     margin-bottom: 5px;
     margin-left: 15px;
+}
+
+.demo-icon {
+    width: 35px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    color: #e67e22;
+}
+
+.project-icon {
+    margin: 0 20px;
 }
 
 /* ---------------------------------------------- */
@@ -186,6 +197,7 @@ header {
 .main-nav li.linkedin a:link,
 .main-nav li.linkedin a:visited {
     border-bottom: none;
+    transition: color 0.2s;
 }
 
 .main-nav li.github a:hover,
@@ -255,4 +267,32 @@ div.project {
 .project h3 {
     font-size: 125%;
     font-weight: 400;
+    margin-bottom: 20px;
 }
+
+.project:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.project-link a:link,
+.project-link a:visited {
+    color: #e67e22;
+    transition: color 0.2s;
+}
+
+.project-link a:hover,
+.project-link a:active {
+    color: #9977de;
+}
+
+/* .main-nav li.github a:hover,
+.main-nav li.github a:active {
+    border-bottom: none;
+    color: #ffa500;
+} */
