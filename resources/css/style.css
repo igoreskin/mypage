@@ -118,6 +118,11 @@ h2:after {
     margin-right: 20px;
 }
 
+.fashion {
+    width: 60px;
+    margin-right: 20px;
+}
+
 .js-icon {
     width: 40px;
 }
@@ -135,6 +140,18 @@ h2:after {
 .rails-icon {
     width: 35px;
     margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.jquery-icon {
+    width: 35px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.api-icon {
+    width: 40px;
+    margin-bottom: 3px;
     margin-left: 15px;
 }
 
@@ -246,6 +263,7 @@ div.project {
 
 .project {
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .project div {
