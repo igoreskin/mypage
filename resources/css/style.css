@@ -113,6 +113,10 @@ h2:after {
     margin-bottom: 10px;
 }
 
+.project-icon {
+    margin: 0 20px;
+}
+
 .eating {
     width: 30px;
     margin-right: 20px;
@@ -127,6 +131,12 @@ h2:after {
     width: 50px;
     margin-right: 20px;
     margin-bottom: -3px;
+}
+
+.bitcoin {
+    width: 50px;
+    margin-right: 20px;
+    margin-bottom: -10px;
 }
 
 .js-icon {
@@ -179,15 +189,16 @@ h2:after {
     margin-left: 15px;
 }
 
-.demo-icon {
-    width: 35px;
-    margin-bottom: 5px;
+.node-icon {
+    width: 70px;
+    margin-bottom: -5px;
     margin-left: 15px;
-    color: #e67e22;
 }
 
-.project-icon {
-    margin: 0 20px;
+.bootstrap-icon {
+    width: 42px;
+    margin-bottom: 8px;
+    margin-left: 15px;
 }
 
 /* ---------------------------------------------- */
