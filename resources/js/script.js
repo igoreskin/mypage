@@ -1,5 +1,16 @@
 $(document).ready(function() {
 
+    // For the sticky navigation: 
+    $('.js--projects').waypoint(function (direction) {
+        if (direction == "down") {
+            $('nav').addClass('sticky');
+        } else {
+            $('nav').removeClass('sticky');
+        }
+    }, {
+            offset: '60px;'
+        })
+
     // Scroll on links:
     $('.js--scroll-to-projects').click(function () {
         $('html, body').animate({ scrollTop: $('.js--projects').offset().top }, 0);

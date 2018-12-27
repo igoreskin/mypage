@@ -265,6 +265,36 @@ header {
     color: #007bb5;
 }
 
+/* Sticky navi */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav { margin: 8px 0 12px 0; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 10px 0;
+    color: #555;
+}
+
+.sticky .main-nav li.github a:hover,
+.sticky .main-nav li.github a:active {
+    color: #ffa500;
+}
+
+.sticky .main-nav li.linkedin a:hover,
+.sticky .main-nav li.linkedin a:active {
+    border-bottom: none;
+    color: #007bb5;
+}
+
 /* Personal */
 
 .personal {
