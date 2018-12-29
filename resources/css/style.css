@@ -401,8 +401,38 @@ div.project {
     color: #9977de;
 }
 
-/* .main-nav li.github a:hover,
-.main-nav li.github a:active {
-    border-bottom: none;
-    color: #ffa500;
-} */
+/* ---------------------------------------------- */
+/* FOOTER */
+/* ---------------------------------------------- */
+
+footer {
+    background-color: #333;
+    padding: 20px 50px 50px 50px;
+    font-size: 90%;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p.phone {
+    text-align: left;
+}
+
+footer p.email {
+    text-align: right;
+}
+
+footer p.email a:link,
+footer p.email a:visited {
+    color: #888;
+    text-decoration: none;
+}
+
+footer p.email a:hover,
+footer p.email a:active {
+    color: #fff;
+    text-decoration: none;
+}
