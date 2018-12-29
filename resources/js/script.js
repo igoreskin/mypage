@@ -11,9 +11,27 @@ $(document).ready(function() {
             offset: '60px;'
         })
 
-    // Scroll on links:
-    $('.js--scroll-to-projects').click(function () {
-        $('html, body').animate({ scrollTop: $('.js--projects').offset().top }, 0);
+    // This kind of a function works well for scrolling on buttons, but it throws to the top of the page when used in sticky navigation:
+    // $('.js--scroll-to-projects').click(function () {
+    //     $('html, body').animate({ scrollTop: $('.js--projects').offset().top }, 0);
+    // });
+
+    // Scroll on navigation links:
+    $(function () {
+        $('a[href*=#]:not([href=#])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                && location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
     });
 
     // Animation on hovering over linked images:
