@@ -214,6 +214,10 @@ header {
     background-attachment: fixed;
 }
 
+.row-personal {
+    z-index: 8888;
+}
+
 /* Main navi */
 
 .main-nav {
@@ -222,6 +226,7 @@ header {
     margin-top: 55px;
     width: 90%;
     margin-left: 5%;
+    z-index: 9999;
 }
 
 .main-nav li {
@@ -269,7 +274,22 @@ header {
     visibility: hidden;
 }
 
+/* Mobile navi */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
 /* Sticky navi */
+
 .sticky {
     position: fixed;
     top: 0;
