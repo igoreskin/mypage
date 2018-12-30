@@ -54,9 +54,9 @@ $(document).ready(function() {
     });
 
     $('.js--gem').hover(function () {
-        $('.js--gem').addClass('animated zoomIn');
+        $('.js--gem').addClass('animated flash');
     }, function () {
-        $('.js--gem').removeClass('animated zoomIn');
+        $('.js--gem').removeClass('animated flash');
     });
 
     // Animation on scroll:
