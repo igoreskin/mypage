@@ -45,12 +45,18 @@ $(document).ready(function() {
         $('.js--github').addClass('animated pulse');
     }, function () {
         $('.js--github').removeClass('animated pulse');
-        });
+    });
 
     $('.js--demo').hover(function () {
         $('.js--demo').addClass('animated pulse');
     }, function () {
         $('.js--demo').removeClass('animated pulse');
+    });
+
+    $('.js--gem').hover(function () {
+        $('.js--gem').addClass('animated zoomIn');
+    }, function () {
+        $('.js--gem').removeClass('animated zoomIn');
     });
 
     // Animation on scroll:
