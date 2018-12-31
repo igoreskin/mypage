@@ -4,6 +4,10 @@
     .name-text h1 { font-size: 210%; }
     .name-text h2 { font-size: 150%; }
 
+    .personal {
+        top: 53%;
+    }
+
     .photo img {
         width: 17%;
     }
@@ -22,10 +26,10 @@
     .name-text h2 { font-size: 130%; }
 
     .personal {
-        top: 55%;
+        top: 58%;
     }
 
-    .photo { margin-top: 20px;}
+    .photo { margin-top: 10px;}
 
     .photo img {
         width: 13%;
@@ -36,11 +40,11 @@
 
 @media only screen and (max-width: 1200px) {
     .personal {
-        top: 58%;
+        top: 62%;
     }
 
     .photo img {
-        width: 12%;
+        width: 11%;
     }
 }
 
