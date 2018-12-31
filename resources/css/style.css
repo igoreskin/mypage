@@ -225,9 +225,9 @@ header {
     background-attachment: fixed;
 }
 
-.row-personal {
+/* .row-personal {
     z-index: 8888;
-}
+} */
 
 /* Main navi */
 
@@ -357,19 +357,26 @@ header {
 .personal {
     position: absolute;
     width: 1140px;
+    /* height: 50%; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    text-align: center;
 }
 
 .photo {
+    /* width: 900px; */
     text-align: center;
-    margin: 70px 0;
+    margin: 40px 0;
 }
 
 .photo img {
     width: 20%;
+}
+
+.name-text {
+    height: 20%;
+
 }
 
 .name-text h2 {

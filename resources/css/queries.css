@@ -1,10 +1,46 @@
-/* Big tablet to 1200px (width smaller than the 1140 row) */
+/* Laptops to 1600px */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1600px) {
+    .name-text h1 { font-size: 210%; }
+    .name-text h2 { font-size: 150%; }
+
+    .photo img {
+        width: 17%;
+    }
+}
+
+/* Laptops to 1400px */
+
+@media only screen and (max-width: 1400px) {
     .row { padding: 0 2%; }
 
     .main-nav li {
         margin-left: 50px;
+    }
+
+    .name-text h1 { font-size: 190%; }
+    .name-text h2 { font-size: 130%; }
+
+    .personal {
+        top: 55%;
+    }
+
+    .photo { margin-top: 20px;}
+
+    .photo img {
+        width: 13%;
+    }
+}
+
+/* Big tablet to 1200px (width smaller than the 1140 row) */
+
+@media only screen and (max-width: 1200px) {
+    .personal {
+        top: 58%;
+    }
+
+    .photo img {
+        width: 12%;
     }
 }
 
@@ -25,10 +61,13 @@
 
     .project { margin-bottom: 20px; }
 
-    .personal { width: 60%; }
+    .personal { 
+        width: 60%;
+        top: 50%
+    }
 
     .photo img {
-        width: 47%;
+        width: 30%;
     }
 
     .main-nav { display: none; }
@@ -101,8 +140,6 @@
     .name-text h1 { font-size: 180%; }
     .name-text h2 { font-size: 120%; }
 
-    /* figure { text-align: right; } */
-
     .photo {
         margin: 20px 0;
     }
@@ -113,16 +150,17 @@
 
     footer p.phone {
     text-align: center;
-}
+    }
 
     footer p.email {
         text-align: center;
     }
+}
 
-    /* Small phones: from 0 to 420px */
-    @media only screen and (max-width: 420px) {
-        .main-nav { font-size: 70%; }
-    }
+/* Small phones: from 0 to 420px */
+
+@media only screen and (max-width: 420px) {
+    .main-nav { font-size: 70%; }
 
     nav .row { 
         padding-left: 0;
