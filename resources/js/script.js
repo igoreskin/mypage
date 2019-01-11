@@ -18,7 +18,7 @@ $(document).ready(function() {
 
     // Scroll on navigation links:
     $(function () {
-        $('a[href*=#]:not([href=#])').click(function () {
+        $('a[href*="#"]:not([href="#"])').click(function () {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
                 && location.hostname == this.hostname) {
 
@@ -27,7 +27,7 @@ $(document).ready(function() {
                 if (target.length) {
                     $('html, body').animate({
                         scrollTop: target.offset().top
-                    }, 1000);
+                    }, 0);
                     return false;
                 }
             }
